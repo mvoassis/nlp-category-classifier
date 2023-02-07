@@ -31,3 +31,15 @@ For development and testing, words in Portuguese-BR were used.
 
 * Train dataset -> [Link](https://caelum-online-public.s3.amazonaws.com/1638-word-embedding/treino.csv) - 90000 entries
 * Test dataset  -> [Link](https://caelum-online-public.s3.amazonaws.com/1638-word-embedding/teste.csv) - 20513 entries
+
+> ## Results
+
+* 0.8 Accuracy score using CBOW (against 0.3 Accuracy from Dummy Classifier)
+* Regarding individual categories, the proposed model achieved F1-Score:
+  1. colunas - 0.78      
+  2. cotidiano - 0.69
+  3. esporte - 0.90
+  4. ilustrada - 0.23
+  5. mercado - 0.81
+  6. mundo - 0.79
+* CBOW is slightly better than Skipgram for this problem. 
